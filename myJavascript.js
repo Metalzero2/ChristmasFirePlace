@@ -26,7 +26,7 @@ function init(){
     playlist = $('#playlist');
     tracks = playlist.find('li a');
     len = tracks.length - 1;
-    audio[0].volume = .20;
+    audio[0].volume = .00;
 
     playlist.find('a').click(function(e){
         e.preventDefault();
@@ -99,3 +99,7 @@ function showPlayer(){
     document.getElementById("showPlayer").style.visibility =  "hidden";
 }
 
+function fullScreen(){
+    alert(document.getElementById("myImage").requestFullscreen);
+    document.getElementById("myImage").requestFullscreen();
+}

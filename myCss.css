@@ -17,7 +17,7 @@ audio{
     left: 10px;
 }
 
-#nextIm,#hidePlayer, #showPlayer{
+#nextIm,#hidePlayer, #showPlayer, #fullScreen{
     position: absolute;
     left: 10px;
     background-color: rgb(189, 69, 0);
@@ -39,11 +39,15 @@ audio{
     top: 50px;
 }
 
+#fullScreen{
+    top: 100px;
+}
+
 #showPlayer{
     visibility: hidden;
 }
 
-#nextIm:hover, #hidePlayer:hover, #showPlayer:hover {
+#nextIm:hover, #hidePlayer:hover, #showPlayer:hover, #fullScreen:hover {
     background-color: rgb(212, 181, 0);
     color: white;
 }
