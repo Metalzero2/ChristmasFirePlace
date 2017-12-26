@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="myCss.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+<!--
+        <button onclick="playSong()" type="button">Play</button>
+        <button onclick="pauseSong()" type="button">Pause</button>
+        <button onclick="nextSong()" type="button">Next</button></button>
+        <button onclick="temp()" type="button">Temp</button></button><br>
+-->
+        <button id="nextIm" onclick="nextImage()" type="button">Next Image</button>
+        <button id="hidePlayer" onclick="hidePlayer()" type="button">Hide Player</button>
+        <button id="showPlayer" onclick="showPlayer()" type="button">Show Player</button>
+
+        <audio id="mySong" width="320" height="176" autoplay controls="" type="audio/mpeg">
+                <source type="audio/mp3" src="audios/00_WhiteChristmas_FrankSinatra.mp3">
+          Your browser does not support HTML5 Song.
+        </audio>
+
+        <ul id="playlist">
+            <li class="active"><a href="audios/00_WhiteChristmas_FrankSinatra.mp3">White Christmas - Frank Sanatra</a></li>
+            <li><a href="audios/01_LetItSnow_FrankSinatra.mp3">Let It Snow - Frank Sinatra</a></li>
+            <li><a href="audios/02_JingleBells_FrankSinatra.mp3">Jingle Bells - Franks Sinatra</a></li>
+            <li><a href="audios/03_ItsTheMostWonderfulTimeOfTheYear_AndyWilliams.mp3">It's The Most Wonderful Time Of The Year - Andy Williams</a></li>
+            <li><a href="audios/04_WalkingInAWinterWonderland.mp3">Walking In A Winter Wonderland</a></li>
+            <li><a href="audios/05_LeighRide_AndyWilliams.mp3">Leigh Ride - Andy Williams</a></li>
+            <li><a href="audios/06_TheTwelveDaysOfChristmas_AlvinAndTheChipmunks.mp3">The Twelve Days Of Christmas - Alvin and the Chipmunks</a></li>
+            <li><a href="audios/07_ChristmasDontBeLate_AlvinAndTheChipmunks.mp3">Christmas Dont Be Late - Alvin and the Chipmunks</a></li>
+    
+        </ul>
+        <script src="myJavascript.js"> </script> 
+    </body>
+</html>
